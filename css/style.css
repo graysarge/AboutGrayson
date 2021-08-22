@@ -191,6 +191,10 @@ footer {
     width: 100%;
   }
   
+  footer ul {
+    text-align: justify;
+  }
+  
   footer h2 {
     color: var(--secondary-color);
     font-size: 30px;
@@ -206,7 +210,4 @@ footer {
     color: var(--secondary-color);
   }
 
-  footer ul {
-    text-align: justify;
-  }
   /* END FOOTER STYLES */
