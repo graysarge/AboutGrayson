@@ -86,10 +86,10 @@ section {
     width: 35%;
     text-align: right;
     margin: 3.5%;
-    color: rgb(2, 2, 2);
+    color: rgb(255, 255, 255);
     font-size: 18px;
     line-height: 1.2;
-
+    text-shadow: black;
   }
   
   .hero-wai h2 {
