@@ -1,7 +1,8 @@
 :root {
-    --primary-color: #38fcec;
-    --secondary-color: #024e76;
-    --tertiary-color: #acb3b4;
+  background-color: gainsboro;
+    --primary-color: #4a2df1;
+    --secondary-color: #0a76b1a9;
+    --tertiary-color: #8eb8f7;
   }
   
   * {
@@ -26,11 +27,6 @@ header {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background-image: url("../images\Pic1.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 80%;
-    z-index: 9999;
   }
   
   header h1 {
@@ -78,14 +74,22 @@ header {
 section {
     padding: 60px;
   }
+  .hero {
+    background-image: url("https://wallpaperaccess.com/full/17520.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+  }
 
   .hero-wai {
     width: 35%;
     text-align: right;
     margin: 3.5%;
-    color: rgb(70, 64, 64);
+    color: rgb(2, 2, 2);
     font-size: 18px;
     line-height: 1.2;
+
   }
   
   .hero-wai h2 {
@@ -116,7 +120,7 @@ section {
   }
   /* SECTION TITLE STYLES END */
   
-  /* MEET THE TRAINERS START */
+  /* Past Work */
 .works {
     width: 100%;
     margin: 0 auto;
@@ -154,7 +158,7 @@ section {
   .work-bio p {
     font-size: 17px;
   }
-  /* TRAINER STYLES END */
+  /* Past Work END */
 
   /* Resume Aside */
   .resume {
@@ -175,7 +179,7 @@ section {
     text-align: center;
 }
 
-/*resume Aside*/
+/*Resume Aside End*/
 
 /* FOOTER STYLES START */
 footer {
@@ -200,5 +204,9 @@ footer {
   
   footer a {
     color: var(--secondary-color);
+  }
+
+  footer ul {
+    text-align: justify;
   }
   /* END FOOTER STYLES */
